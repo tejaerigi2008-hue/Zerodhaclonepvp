@@ -1,0 +1,49 @@
+button{
+    background-color: rgb(71, 154, 227);
+    color: white;
+    padding: 10px 30px;
+    margin: 100px;
+
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+h2{
+    text-transform: uppercase ;
+    text-decoration: underline;
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+}
+.p1{
+    color: cadetblue;
+    background-color: brown;
+}
+#p2{
+    color: blueviolet;
+    border-style: double;
+    border-color: black;
+    border-radius: 10px;
+}
+#logo{
+    height:auto 50px;
+    width:125px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+nav{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+#videos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+
+}
